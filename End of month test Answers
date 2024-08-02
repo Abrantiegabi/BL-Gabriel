@@ -1,0 +1,53 @@
+1. b
+2. g
+3. j
+4. b
+5. d
+6. d
+7. a
+8. d
+9. c
+10. a
+11. d
+
+// Theory Part //
+3. Git is a distributed version control system designed to track and save the progress in source code during software development.
+It is important because it make it easier for developers to come together and work and make changes on a project. Also, it makes it easier for developers to make changes on codes that have been made public. With this kind of feature, people can access your code and make changes on code without distroying your code(program).
+
+4. To create a Backend/Frontend project and pushing it to GitHub if you have it installed and working on a Unix-based system like Linux or macOS, type these in your TERMINAL
+
+*	To create a project stracture frontend/backend directories
+mkdir my_project
+cd my_project
+mkdir frontend backend
+
+*	To  initialize a new Git repository in your project directory 
+cd my_project
+git init
+
+*	Add a README file to describe your project
+echo “# My Project” >> READ.md
+
+*	To add Files to the Repository 
+git add .
+
+*	Commit your changes
+git commit -m “Initial commit”
+
+To create a GitHub Repository in your GitHub account, go to GitHub and login to your account.
+
+Click on the ‘+’ icon in the upper right corner and select “New Repository’ to create one.
+Name your repository with a recognable name. afterwards you can add a description to give more clarity to your project.
+Choose if you want your repository to be (public or private) This is where you choose if your code can be accessed by other developers or not.
+Click “Create Repository” 
+
+To connect your local repository to GitHub, copy the URL of your newly created repository 
+Push your changes to GitHub by typing this command in your terminal.
+git push -u origin master 
+Go to your Github repository URL in your web browser to see your files online. 
+
+Whenever you make changes to your project, you need to add, commit, and push the changes to Github.
+To make changes to your files, add the changes to the staging area by typing >> git add .
+To commit the changes, type >> git commit -m “type a discription of your changes made”
+To push the changes to GitHub, type the command >> git push
+Finally, your code would be pushed to your GitHub repository successfully.
